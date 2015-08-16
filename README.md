@@ -3,7 +3,7 @@ My portfolio
 <br/>
 Hackbright front-end portfolio assignment
 <br/>
-Week one: HTML only, brief bio (2 sentences), social media links (include github profile), deploy to github pages.
+Week one: HTML only, picture, brief bio (2 sentences), social media links (include github profile), deploy to github pages.
 <br/>
 
 
