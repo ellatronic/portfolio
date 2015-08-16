@@ -1,9 +1,9 @@
 # portfolio
-<<<<<<< HEAD
 My portfolio
+<br/>
+Hackbright front-end portfolio assignment
+<br/>
+Week one
+<br/>
 
-![alt text](screenshots/Screenshot_2015-08-16_13.15.43.png) "Portfolio page, HTML only")
-=======
-Hackbright front-end course week 1
-<br>portfolio assignment in html only
->>>>>>> f8bc0a6a0d966419eeb17a465889b8939bf2f5d9
+![Alt text](/../screenshots/Screenshot_2015-08-16_13.15.43.png?raw=true "Portfolio page, HTML only")
