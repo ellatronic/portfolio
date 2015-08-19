@@ -1,0 +1,58 @@
+body {
+	background-color: #FCFCFC;
+}
+
+#page-header h1 {
+	color: #FF80B2;
+	text-align: center;
+	padding-top: 75px;
+}
+
+#nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #FCFCFC;
+  border-top: 2px solid #FF80B2;
+}
+
+#about {
+	background: transparent;
+	height: relative;
+	width: 50%;
+	float: left;
+	padding: 5px;
+}
+
+#about img{
+	background: transparent;
+	height: relative;
+	width: 50%;
+	float: left;
+	padding: 5px;
+}
+
+#social-buttons {
+	width: 25%;
+	float: right;
+	padding: 10px;
+}
+
+#footer {
+	background: transparent;
+	color: #FF80B2;
+	clear: both;
+	text-align: center;
+	padding: 5px;
+}
+
+li {
+  display: inline;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+a {
+	text-decoration: none;
+}
