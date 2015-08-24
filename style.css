@@ -2,22 +2,32 @@ body {
 		background-color: #FCFCFC;
 }
 
-#page-header h1 {
+.page-header h1 {
 	color: #FF80B2;
 	text-align: center;
 	padding-top: 75px;
 }
 
-#nav{
+.nav{
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   background: #FCFCFC;
   border-top: 2px solid #FF80B2;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
-#about {
+.col1, .col2, .col3 {
+	float: left;
+	background-color: transparent;
+	margin-bottom: 1em;
+	margin-left: 3%;
+	width: 30%
+}
+
+.about {
 	background: transparent;
 	height: relative;
 	width: 50%;
@@ -25,7 +35,7 @@ body {
 	padding: 5px;
 }
 
-#about img{
+.about img{
 	background: transparent;
 	height: relative;
 	width: 50%;
@@ -33,13 +43,13 @@ body {
 	padding: 5px;
 }
 
-#social-buttons {
+.social-buttons {
 	width: 25%;
 	float: right;
 	padding: 10px;
 }
 
-#footer {
+.footer {
 	background: transparent;
 	color: #FF80B2;
 	clear: both;
