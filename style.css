@@ -1,6 +1,7 @@
 body {
-		background-image: paisley.png;
+		background-image: url("images/paisley.png");
 		background-color: #FCFCFC;
+		font-family: Arial;
 }
 
 .page-header h1 {
@@ -70,4 +71,5 @@ li {
 
 a {
 	text-decoration: none;
+	color: #FF83B8;
 }
