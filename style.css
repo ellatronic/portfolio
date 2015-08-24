@@ -1,5 +1,5 @@
-body {
 	background-color: #FCFCFC;
+body {
 }
 
 #page-header h1 {
@@ -47,10 +47,14 @@ body {
 	padding: 5px;
 }
 
+ul {
+	margin: 0;
+	text-align: center;
+}
+
 li {
-  display: inline;
-  margin-right: 5%;
-  margin-left: 5%;
+	display: inline;
+	margin: 5%;
 }
 
 a {
