@@ -29,6 +29,15 @@ body {
 	width: 30%
 }
 
+.form {
+	border: 1px dashed #FF80B2;
+	border-radius: 30px;
+	margin-right: 35%;
+	margin-left: 35%;
+	padding: 2%;
+	text-align: center;
+}
+
 .about {
 	background: transparent;
 	height: relative;
