@@ -30,6 +30,32 @@ body {
 
 }
 
+@font-face {
+    font-family: 'vidaloka_regular';
+    src: url('fonts/vidaloka-regular-webfont.eot');
+    src: url('fonts/vidaloka-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/vidaloka-regular-webfont.woff2') format('woff2'),
+         url('fonts/vidaloka-regular-webfont.woff') format('woff'),
+         url('fonts/vidaloka-regular-webfont.ttf') format('truetype'),
+         url('fonts/vidaloka-regular-webfont.svg#vidaloka_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('fonts/montserrat-regular-webfont.eot');
+    src: url('fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-regular-webfont.woff') format('woff'),
+         url('fonts/montserrat-regular-webfont.ttf') format('truetype'),
+         url('fonts/montserrat-regular-webfont.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 ul {
 	margin: 0;
 	text-align: center;
@@ -81,6 +107,11 @@ text-decoration:none;
 color: #FF83B8;
 }
 
+/*---Content---*/
+.content {
+	margin-bottom: 5%;
+}
+
 /*---Columns---*/
 .col1, .col2, .col3 {
 	float: left;
@@ -97,6 +128,24 @@ color: #FF83B8;
 	margin-left: 35%;
 	padding: 2%;
 	text-align: center;
+	font:.75em 'montserratregular', sans-serif;
+	color:#111;
+	text-transform:uppercase;  
+	letter-spacing:1px;
+}
+
+.form-name {
+	height: 1em;
+    width: 65%;
+    padding: 5px;
+    text-indent: 5px;
+}
+
+.form-message {
+	height: 10em;
+    width: 97%;
+    padding: 5px;
+    text-indent: 5px;
 }
 
 .form-submit {
@@ -105,7 +154,7 @@ color: #FF83B8;
 	color:#fff !important; 
 	border-radius: 0 !important;
 	text-transform:uppercase; 
-	font:10px sans-serif !important; 
+	font:10px 'montserratregular', sans-serif !important; 
 	letter-spacing:1px;
 	width:66px !important;
 }
@@ -114,15 +163,18 @@ color: #FF83B8;
 .about {
 	background: transparent;
 	height: relative;
-	width: 50%;
+	width: 35%;
 	float: left;
 	padding: 5px;
+	font-size: .8em;
+	letter-spacing: .25px;
+	text-align: justify;
 }
 
 .about img{
 	background: transparent;
 	height: relative;
-	width: 50%;
+	width: 100%;
 	float: left;
 	padding: 5px;
 	border-radius: 50%;
