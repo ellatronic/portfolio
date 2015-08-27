@@ -1,3 +1,4 @@
+/*---Main---*/
 body {
 		background-color: #FCFCFC;
 		font-family: Georgia;
@@ -29,79 +30,6 @@ body {
 
 }
 
-.page-header h1 {
-	color: #FF80B2;
-	text-align: center;
-	padding-top: 75px;
-	font-family: 'playfair_displaybold_italic';
-}
-
-.nav{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: #FCFCFC;
-  border-top: 2px solid #FF80B2;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  font-family: 'playfair_displayitalic'
-}
-
-.nav a:visited {
-text-decoration:none;
-color: #FF83B8;
-}
-
-.col1, .col2, .col3 {
-	float: left;
-	background-color: transparent;
-	margin-bottom: 1em;
-	margin-left: 3%;
-	width: 30%
-}
-
-.form {
-	border: 1px dashed #FF80B2;
-	border-radius: 30px;
-	margin-right: 35%;
-	margin-left: 35%;
-	padding: 2%;
-	text-align: center;
-}
-
-.about {
-	background: transparent;
-	height: relative;
-	width: 50%;
-	float: left;
-	padding: 5px;
-}
-
-.about img{
-	background: transparent;
-	height: relative;
-	width: 50%;
-	float: left;
-	padding: 5px;
-	border-radius: 50%;
-}
-
-.social-buttons {
-	width: 25%;
-	float: right;
-	padding: 10px;
-}
-
-.footer {
-	background: transparent;
-	color: #FF80B2;
-	clear: both;
-	text-align: center;
-	padding: 5px;
-	font-family: 'playfair_displaybold_italic';
-}
-
 ul {
 	margin: 0;
 	text-align: center;
@@ -125,4 +53,103 @@ color: #000;
 a:hover {
 text-decoration:none;
 color: #aaa;
+}
+
+/*---Header---*/
+.page-header h1 {
+	color: #FF80B2;
+	text-align: center;
+	padding-top: 75px;
+	font-family: 'playfair_displaybold_italic';
+}
+
+/*---Nav---*/
+.nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #FCFCFC;
+  border-top: 2px solid #FF80B2;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-family: 'playfair_displayitalic'
+}
+
+.nav a:visited {
+text-decoration:none;
+color: #FF83B8;
+}
+
+/*---Columns---*/
+.col1, .col2, .col3 {
+	float: left;
+	background-color: transparent;
+	margin-bottom: 1em;
+	margin-left: 3%;
+	width: 30%
+}
+
+/*---Contact Form---*/
+.form {
+	border: 1px solid #000000;
+	margin-right: 35%;
+	margin-left: 35%;
+	padding: 2%;
+	text-align: center;
+}
+
+.form-submit {
+	border:1px solid #111 !important; 
+	background:#111 !important; 
+	color:#fff !important; 
+	border-radius: 0 !important;
+	text-transform:uppercase; 
+	font:10px sans-serif !important; 
+	letter-spacing:1px;
+	width:66px !important;
+}
+
+/*---About Section---*/
+.about {
+	background: transparent;
+	height: relative;
+	width: 50%;
+	float: left;
+	padding: 5px;
+}
+
+.about img{
+	background: transparent;
+	height: relative;
+	width: 50%;
+	float: left;
+	padding: 5px;
+	border-radius: 50%;
+}
+
+/*---Social Media Buttons---*/
+.social-buttons {
+	width: 25%;
+	float: right;
+	padding: 10px;
+}
+
+.social-buttons img{
+	height: 2em;
+	width: 2em;
+}
+
+.social-buttons a:hover{
+	opacity: .8;
+}
+
+/*---Footer---*/
+.footer {
+	background: transparent;
+	color: #FF80B2;
+	clear: both;
+	text-align: center;
+	padding: 5px;
+	font-family: 'playfair_displaybold_italic';
 }
