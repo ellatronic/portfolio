@@ -69,7 +69,6 @@ li {
 a:link {
 text-decoration:none;
 color: #FF83B8;
-transition: all 0.25s ease-out; -o-transition: all 0.25s ease-out; -moz-transition: all 0.25s ease-out; -webkit-transition: all 0.25s ease-out;
 max-width:100%;
 }
 a:visited {
@@ -78,7 +77,8 @@ color: #000;
 }
 a:hover {
 text-decoration:none;
-color: #aaa;
+opacity: .8;
+color: #AAAAAA;
 }
 
 /*---Header---*/
@@ -102,13 +102,6 @@ color: #aaa;
   font-family: 'playfair_displayitalic'
 }
 
-.nav a:link {
-text-decoration:none;
-color: #FF83B8;
-transition: all 0.25s ease-out; -o-transition: all 0.25s ease-out; -moz-transition: all 0.25s ease-out; -webkit-transition: all 0.25s ease-out;
-max-width:100%;
-}
-
 .nav a:visited {
 text-decoration:none;
 color: #FF83B8;
@@ -116,7 +109,8 @@ color: #FF83B8;
 
 .nav a:hover {
 text-decoration:none;
-color: #aaa;
+opacity: .8;
+color: #AAAAAA;
 }
 
 /*---Content---*/
