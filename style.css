@@ -86,7 +86,7 @@ color: #AAAAAA;
 	color: #FF80B2;
 	text-align: center;
 	padding-top: 75px;
-	font-family: 'playfair_displaybold_italic';
+	font-family: 'playfair_displayitalic';
 }
 
 /*---Nav---*/
@@ -124,7 +124,11 @@ color: #AAAAAA;
 	background-color: transparent;
 	margin-bottom: 1em;
 	margin-left: 3%;
-	width: 30%
+	width: 30%;
+}
+
+.content p {
+	text-align: justify;
 }
 
 /*---Contact Form---*/
