@@ -3,6 +3,9 @@ My portfolio
 <br/>
 Hackbright front-end portfolio assignment
 <br/>
+Week three (8/31/2015): added modified class exercise example to portfolio projects
+![Screenshot 8/25/15](/../screenshots/Screenshot_2015-08-31_15.55.02.png?raw=true "Background added, contact page and form added")
+<br/>
 Week two (8/24/2015): added columns to content layout, added background img, added contact page with form.
 <br/>
 ![Screenshot 8/25/15](/../screenshots/Screenshot_2015-08-24_13.52.58.png?raw=true "Background added, contact page and form added")
