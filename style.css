@@ -121,25 +121,44 @@ color: #AAAAAA;
 
 /*---Content---*/
 .content {
-	margin-bottom: 5%;
+	margin: 0 5% 5% 5%;
 }
 
 .portfolio-item {
 	text-align: center;
 }
 
+.portfolio-item img{
+	width: 100%;
+	border: 1px solid #000;
+}
+
 .portfolio-item p.btn {
-		margin: 0;
-	}
+	margin: 0;
+}
+
 .portfolio-item p.btn a {
-		display: block;
-		padding: 7px 0 0 0;
-		text-align: center;
-		font:.75em 'montserratregular', sans-serif; 
-		text-transform: uppercase;
-		letter-spacing:1px;
-		text-decoration: none;
-	}
+	display: block;
+	padding: 7px 0 0 0;
+	text-align: center;
+	font:.75em 'montserratregular', sans-serif; 
+	text-transform: uppercase;
+	letter-spacing:1px;
+	text-decoration: none;
+}
+
+.project-page img {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+}
+
+.project-page p {
+	float: right;
+	margin: 2.5%;
+	text-align: justify;
+	width: 45%;
+}
 
 /*---Columns---*/
 .col1, .col2, .col3 {
@@ -199,11 +218,13 @@ color: #AAAAAA;
 	background: transparent;
 	height: relative;
 	width: 35%;
+	height: 50%;
 	float: left;
 	padding: 5px;
 	font-size: .8em;
 	letter-spacing: .25px;
 	text-align: justify;
+	clear: both;
 }
 
 .about img{
@@ -213,6 +234,10 @@ color: #AAAAAA;
 	float: left;
 	padding: 5px;
 	border-radius: 50%;
+}
+
+.about p {
+	height: 50%;
 }
 
 /*---Social Media Buttons---*/
