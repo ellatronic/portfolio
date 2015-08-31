@@ -1,3 +1,8 @@
+/*---Reset to remove browser defaults---*/
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+	margin: 0; padding: 0; border: 0;
+}
+
 /*---Main---*/
 body {
 		background-color: #FCFCFC;
@@ -86,6 +91,7 @@ color: #AAAAAA;
 	color: #FF80B2;
 	text-align: center;
 	padding-top: 75px;
+	padding-bottom: 10px;
 	font-family: 'playfair_displayitalic';
 }
 
@@ -118,6 +124,23 @@ color: #AAAAAA;
 	margin-bottom: 5%;
 }
 
+.portfolio-item {
+	text-align: center;
+}
+
+.portfolio-item p.btn {
+		margin: 0;
+	}
+.portfolio-item p.btn a {
+		display: block;
+		padding: 7px 0 0 0;
+		text-align: center;
+		font:.75em 'montserratregular', sans-serif; 
+		text-transform: uppercase;
+		letter-spacing:1px;
+		text-decoration: none;
+	}
+
 /*---Columns---*/
 .col1, .col2, .col3 {
 	float: left;
@@ -149,6 +172,7 @@ color: #AAAAAA;
     width: 65%;
     padding: 5px;
     text-indent: 5px;
+    border: 1px solid #000;
 }
 
 .form-message {
@@ -156,6 +180,7 @@ color: #AAAAAA;
     width: 97%;
     padding: 5px;
     text-indent: 5px;
+    border: 1px solid #000;
 }
 
 .form-submit {
