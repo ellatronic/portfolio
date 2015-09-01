@@ -1,0 +1,58 @@
+body {
+	background-color : whitesmoke;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+h1 {
+	color : #000000;
+	text-align : center;
+}
+form {
+	width: 300px;
+	margin: 0 auto;
+	font:.75em Arial, sans-serif;
+	color: #111;
+
+}
+
+li {
+	list-style-type: none;
+	display: block;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: grey;
+    margin-bottom: 2%;
+}
+
+fieldset {
+	border: 1px solid #000;
+	background-color: white;
+}
+
+#name, 
+#email, 
+#password, 
+#confirm-password {
+	display: block;
+}
+
+
+textarea {
+  width: 75%;
+  height: 100px;
+  font-size: 24px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+select {
+	width: 75%;
+	height: 100px;
+	text-transform: uppercase;
+}

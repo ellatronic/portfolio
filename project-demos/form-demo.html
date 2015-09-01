@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Cool Form</title>
+    <link rel="stylesheet" href="form-style.css">
+  </head>
+
+  <body class="container">
+    <h1> Best Form Ever</h1>
+
+    <form action="http://requestb.in/1av83oz1" method="POST">
+    <fieldset>
+    <legend>Personal Information</legend>
+
+    <div class="content">
+    <ul>
+      <li><label for="name">Name <input name="name" type="text" id="name"></label></li>
+      <li><label for="email">Email <input name="email" type="text" id="email"></label></li>
+      <li><label for="password">Password <input name="password" type="password" id="password"></label></li>
+      <li><label for="confirm-password">Confirm Password<input name="confirm-password" type="password" id="confirm-password"></label></li>
+      <br/>
+
+      <label for="fav-animal">Select your favorite animal</label></li>
+        	<select multiple name="favorite-animal" id="fav-animal">
+          			<option id="option1" value="bunny">
+          				<label for="option1">bunny</label>
+          			</option>
+          			<option id="option2" value="hedgehog">
+          				<label for="option2">hedgehog</label>
+          			</option>
+          			<option id="option3" value="sea-hare">
+          				<label for="option3">sea hare</label>
+          			</option>
+          			<option id="option4" value="puppy">
+          				<label for="option4">puppy</label>
+          			</option>
+        	</select>
+       </label>
+       <br/>
+    
+      <br/>
+      <label>Introduction<br/>
+      	<textarea name="introduction" id="intro" placeholder="introduction" maxlength=250>
+      	</textarea>
+      </label>
+      <br/>
+
+      <h4>Favorite Color</h4>
+      <ul>
+        <li>
+        	<input name="favorite-color" type="radio" value="pink"/><label for="radio1">pink</label> 
+        </li>
+        <li>
+        	<input name="favorite-color" type="radio" value="gray"/><label for="radio2">gray</label> 
+        </li>
+        <li>
+        	<input name="favorite-color" type="radio" value="red"/><label for="radio3">red </label>
+        </li>
+        <li>
+        	<input name="favorite-color" type="radio" value="blue"/><label for="radio4">blue</label> 
+        </li>
+        <li>
+        	<input name="favorite-color" type="radio" value="chartreuse"/><label for="radio5">chartreuse</label>
+        </li>
+      </ul>
+
+      <h4>Favorite Food</h4>
+      <ul>
+      	<li>
+      		<input type="checkbox" id="checkbox1" value="caramel-corn">
+      		<label for="checkbox1">caramel corn</label>
+      	</li>
+      	<li>
+      		<input type="checkbox" id="checkbox2" value="pizza">
+      		<label for="checkbox2">pizza</label>
+      	</li>
+      	<li>
+      		<input type="checkbox" id="checkbox3" value="ice-cream">
+      		<label for="checkbox3">ice cream</label>
+      	</li>
+      	<li>
+      		<input type="checkbox" id="checkbox4" value="sushi">
+      		<label for="checkbox4">sushi</label>
+      	</li>
+      	<li>
+      		<input type="checkbox" id="checkbox5" value="waffles">
+      		<label for="checkbox5">waffles</label>
+      	</li>
+      </ul>
+      
+      <br/>
+
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset the form">
+    </ul>
+    </div>
+    </fieldset>
+    </form>
+
+  </body>
+</html>
