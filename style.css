@@ -61,16 +61,6 @@ body {
 
 }
 
-ul {
-	margin: 0;
-	text-align: center;
-}
-
-li {
-	display: inline;
-	margin: 5%;
-}
-
 a:link {
 text-decoration:none;
 color: #FF83B8;
@@ -117,6 +107,16 @@ color: #FF83B8;
 text-decoration:none;
 opacity: .8;
 color: #AAAAAA;
+}
+
+.nav ul {
+	margin: 0;
+	text-align: center;
+}
+
+.nav li {
+	display: inline;
+	margin: 5%;
 }
 
 /*---Content---*/
