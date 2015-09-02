@@ -85,6 +85,15 @@ color: #AAAAAA;
 	font-family: 'playfair_displayitalic';
 }
 
+.page-header img {
+	padding-top: 50px;
+	width: 100%;
+}
+
+h1#projects {
+	padding-top: .5em;
+}
+
 /*---Nav---*/
 .nav{
   position: fixed;
@@ -93,9 +102,7 @@ color: #AAAAAA;
   width: 100%;
   background: #FCFCFC;
   border-top: 2px solid #FF80B2;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  font-family: 'playfair_displayitalic'
+  font-family: 'playfair_displayitalic';
 }
 
 .nav a:visited {
@@ -110,13 +117,24 @@ color: #AAAAAA;
 }
 
 .nav ul {
-	margin: 0;
+	clear:all;
 	text-align: center;
+	margin-top: 1%;
+	margin-bottom: 1%;
 }
 
 .nav li {
 	display: inline;
 	margin: 5%;
+}
+
+.nav img {
+	float: left;
+	padding-top: .5em;
+	padding-left: 1em;
+	margin-left: 12%;
+	margin-right: -5%;
+	height: 2em;
 }
 
 /*---Content---*/
