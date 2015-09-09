@@ -4,6 +4,7 @@
 <head>
 	<title>Contact Ella</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
 		<header class="page-header">
@@ -43,7 +44,7 @@
 
 		<div class="content">
 			<div class="form">
-				<form action="//formspree.io/ellachiangg@gmail.com" method="POST">
+				<form name="contactForm" action="//formspree.io/ellachiangg@gmail.com" onsubmit="return validateForm()" method="POST">
 						First name: <br>
 						<input class="form-name" type="text" name="first-name">
 						<br>

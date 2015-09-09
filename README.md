@@ -3,6 +3,9 @@ My portfolio
 <br/>
 Hackbright front-end portfolio assignment
 <br/>
+Week four (9/9/2015): added first name form validation using JavaScript, added header img, logo
+![Screenshot 9/9/2015](/../screenshots/Screenshot_2015-09-09_14.40.52.png?raw=true "added first name form validation using JavaScript, added header img, logo")
+<br/>
 Week three (8/31/2015): added modified class exercise example to portfolio projects
 ![Screenshot 8/25/15](/../screenshots/Screenshot_2015-08-31_15.55.02.png?raw=true "Background added, contact page and form added")
 <br/>
