@@ -60,6 +60,7 @@ body {
 .navbar img {
 	padding-top: .7em;
 	width: 2em;
+  vertical-align: middle;
 }
 .navbar-default .navbar-nav > .active{
     color: #000;
@@ -77,6 +78,9 @@ body {
   border-top: 2px solid #FF80B2;
   border-bottom: 0;
   font-family: 'playfair_displayitalic';
+}
+.navbar-default .navbar-nav>li>a {
+    color: #FF83B8;
 }
 
 .navbar a:visited {
@@ -102,8 +106,8 @@ color: #AAAAAA;
 
 @media (min-width: 992px){
     .navbar li {
-        margin-left : 1em;
-        margin-right : 1em;
+        margin-left : 2em;
+        margin-right : 2em;
     }
 }
 
@@ -112,10 +116,12 @@ color: #AAAAAA;
 	color: #FF80B2;
 	text-align: center;
 	font-family: 'playfair_displayitalic';
+  margin-bottom: 0;
 }
 
 .page-header img {
 	width: 100%;
+  margin-top: 4.1%;
 }
 
 .page-header {
@@ -125,6 +131,7 @@ color: #AAAAAA;
 /*---Content---*/
 .portfolio-item {
 	text-align: center;
+  padding: 3%;
 }
 
 .portfolio-item img{
