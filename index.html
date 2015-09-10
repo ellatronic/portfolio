@@ -1,81 +1,126 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Ella Chiang</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
-	</head>
+<html lang="en">
+<head>
+	<title>Ella Chiang</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="custom.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
 
-	<body>
-		<header class="page-header">
-			<img src="images/ella-header02.png">
-			<h1 id="projects">Projects</h1>
-		</header>
-
-		<nav class="nav">
-			<img src="images/ella-logo01-nav-edit.png">
-			<ul>
-				<li>
-					<a href="http://ellatronic.github.io/portfolio/">
-						<span>Home</span>
-					</a>
-				</li>
-				<li>
-					<a href="#about">
-						<span>About</span>
-					</a>
-				</li>
-				<li>
-					<a href="#projects">
-						<span>Projects</span>
-					</a>
-				</li>
-				<li>
-					<a href="#blog">
-					<span>Blog</span>
-					</a>
-				</li>
-				<li>
-					<a href="contact.html">
-						<span>Contact</span>
-					</a>
-				</li>
-			</ul>
-		</nav>
-
-		<div class="content">
-			<div class="col1">
-				<div class="portfolio-item">
-					<a href="images/project-screenshots/form-exercise.png"><img src="images/project-screenshots/form-exercise-ss.png" alt="View Screenshot" /></a>
-				<p class="btn"><a href="form-project-page.html">See more</a></p>
-				</div>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
 			</div>
 			
-			<div class="col2">
-				<div class="portfolio-item">
-					<a href="images/project-screenshots/recipe.png"><img src="images/project-screenshots/recipe-ss.png" alt="View Screenshot"></a>
-					<p class="btn"><a href="recipe-project-page.html">See more</a></p>
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active">
+						<img class="img-responsive" src="images/ella-logo01-nav-edit.png">
+					</li>
+					<li>
+						<a href="index.html">
+							<span>Home</span>
+						</a>
+					</li>
+					<li>
+						<a href="#about">
+							<span>About</span>
+						</a>
+					</li>
+					<li>
+						<a href="#projects">
+							<span>Projects</span>
+						</a>
+					</li>
+					<li>
+						<a href="http://coding.ellatronic.com">
+							<span>Blog</span>
+						</a>
+					</li>
+					<li>
+						<a href="contact.html">
+							<span>Contact</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<header class="page-header">
+		<div class="header-content">
+			<div class="header-content-inner">
+				<img class="img-responsive" src="images/ella-header02.png">
+				<h1 id="projects">Projects</h1>
+			</div>
+		</div>
+	</header>
+
+	<section class="no-padding" id="portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="portfolio-item">
+						<a href="images/project-screenshots/form-exercise.png"><img class="img-responsive" src="images/project-screenshots/form-exercise-ss.png" alt="View Screenshot" /></a>
+						<p class="btn"><a href="form-project-page.html">See more</a></p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="portfolio-item">
+						<a href="images/project-screenshots/recipe.png"><img class="img-responsive" src="images/project-screenshots/recipe-ss.png" alt="View Screenshot"></a>
+						<p class="btn"><a href="recipe-project-page.html">See more</a></p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<p>Suspendisse placerat quis magna sed venenatis. Mauris pretium luctus neque, sed ullamcorper lectus rutrum in. Vivamus lacus enim, euismod in odio ut, luctus maximus diam. Vivamus volutpat nisl ante, in tristique tellus fringilla tempus. Pellentesque sed turpis ut mauris lobortis cursus. Donec vulputate, neque rhoncus lobortis sollicitudin, elit erat pharetra mi, non rhoncus lorem neque in nisl. Nulla ornare dapibus urna nec efficitur. Aenean porttitor erat non est commodo, ut vehicula lectus dapibus. Pellentesque felis nibh, interdum ac dui sed, condimentum viverra odio. Etiam pharetra quam vitae nisl consequat, id fermentum mauris elementum. Mauris finibus auctor tortor, vitae elementum dui scelerisque ac.</p>
 				</div>
 			</div>
-			<div class="col3">
-				<p>Suspendisse placerat quis magna sed venenatis. Mauris pretium luctus neque, sed ullamcorper lectus rutrum in. Vivamus lacus enim, euismod in odio ut, luctus maximus diam. Vivamus volutpat nisl ante, in tristique tellus fringilla tempus. Pellentesque sed turpis ut mauris lobortis cursus. Donec vulputate, neque rhoncus lobortis sollicitudin, elit erat pharetra mi, non rhoncus lorem neque in nisl. Nulla ornare dapibus urna nec efficitur. Aenean porttitor erat non est commodo, ut vehicula lectus dapibus. Pellentesque felis nibh, interdum ac dui sed, condimentum viverra odio. Etiam pharetra quam vitae nisl consequat, id fermentum mauris elementum. Mauris finibus auctor tortor, vitae elementum dui scelerisque ac.</p>
+		</div>
+	</section>
+
+	<section>
+		<div class="container-fluid bottom-row">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="about">
+						<a href="http://github.com/ellatronic" target="_blank"><img src="https://avatars1.githubusercontent.com/u/13579508?v=3&s=460" style="width:20%"></a>
+						<br/>
+						<p>Ella Chiang is learning front-end web development at Hackbright Academy. She currently resides in San Francisco, CA.</p>
+					</div>
+				</div>
+
+				<div class="social-buttons">
+					<div class="col-sm-6">
+						<a href="http://github.com/ellatronic"><img src="images/github2-dreamstale35.png"></a>
+						<a href="http://www.linkedin.com/in/eleanorchiang"><img src="images/linkedin-dreamstale45.png"></a>
+						<a href="http://www.twitter.com/ellatronic_"><img src="images/twitter-dreamstale71.png"></a>
+					</div>
+				</div>
 			</div>
 		</div>
-
-		<div class="about">
-			<a href="http://github.com/ellatronic" target="_blank"><img src="https://avatars1.githubusercontent.com/u/13579508?v=3&s=460" style="width:20%"></a>
-			<br/>
-			<p>Ella Chiang is learning front-end web development at Hackbright Academy. She currently resides in San Francisco, CA.</p>
+	</section>
+		
+	<section>
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="footer">
+				&copy 2015 Ella Chiang | ellatronic | All rights reserved.
+				</div>
+			</div>
 		</div>
+	</section>
 
-		<div class="social-buttons">
-			<a href="http://github.com/ellatronic"><img src="images/github2-dreamstale35.png"></a>
-			<a href="http://www.linkedin.com/in/eleanorchiang"><img src="images/linkedin-dreamstale45.png"></a>
-			<a href="http://www.twitter.com/ellatronic_"><img src="images/twitter-dreamstale71.png"></a>
-		</div>
-
-		<div class="footer">
-			&copy 2015 Ella Chiang | ellatronic | All rights reserved.
-		</div>
-
-	</body>
+</body>
 </html>
