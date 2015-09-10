@@ -2,70 +2,123 @@
 <html>
 <head>
 	<title>Recipe Page</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="custom.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
+
 <body>
-	<header class="page-header">
-			<h1>Recipe Page</h1>
-		</header>
-
-		<nav class="nav">
-			<img src="images/ella-logo01-nav-edit.png">
-			<ul>
-				<li>
-					<a href="http://ellatronic.github.io/portfolio/">
-						<span>Home</span>
-					</a>
-				</li>
-				<li>
-					<a href="#about">
-						<span>About</span>
-					</a>
-				</li>
-				<li>
-					<a href="http://ellatronic.github.io/portfolio/#projects">
-						<span>Projects</span>
-					</a>
-				</li>
-				<li>
-					<a href="#blog">
-					<span>Blog</span>
-					</a>
-				</li>
-				<li>
-					<a href="contact.html">
-						<span>Contact</span>
-					</a>
-				</li>
-			</ul>
-		</nav>
-
-		<div class="content">
-			<div class="project-page">
-				<a href="project-demos/recipe-demo.html"><img src="images/project-screenshots/recipe-demo.png" alt="sample recipe page" /></a>
-				<p>A simple webpage for a recipe.</p>
-				<p>
-					<a href="http://github.com/ellatronic/portfolio/blob/master/project-demos/recipe-demo.html">HTML</a>
-					 / 
-					<a href="http://github.com/ellatronic/portfolio/blob/master/project-demos/recipe-style.css">CSS</a>
-				</p>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active">
+						<img class="img-responsive" src="images/ella-logo01-nav-edit.png">
+					</li>
+					<li>
+						<a href="index.html">
+							<span>Home</span>
+						</a>
+					</li>
+					<li>
+						<a href="#about">
+							<span>About</span>
+						</a>
+					</li>
+					<li>
+						<a href="index.html#projects">
+							<span>Projects</span>
+						</a>
+					</li>
+					<li>
+						<a href="http://coding.ellatronic.com">
+							<span>Blog</span>
+						</a>
+					</li>
+					<li>
+						<a href="contact.html">
+							<span>Contact</span>
+						</a>
+					</li>
+				</ul>
 			</div>
 		</div>
+	</nav>
 
-		<div class="about">
-			<a href="http://github.com/ellatronic" target="_blank"><img src="https://avatars1.githubusercontent.com/u/13579508?v=3&s=460" style="width:20%"></a>
-			<br/>
-			<p>Ella Chiang is learning front-end web development at Hackbright Academy. She currently resides in San Francisco, CA.</p>
+	<header class="page-header">
+		<div class="header-content">
+			<div class="header-content-inner">
+				<h1 class="project-page">Sample Form</h1>
+			</div>
 		</div>
+	</header>
 
-		<div class="social-buttons">
-			<a href="http://github.com/ellatronic"><img src="images/github2-dreamstale35.png"></a>
-			<a href="http://www.linkedin.com/in/eleanorchiang"><img src="images/linkedin-dreamstale45.png"></a>
-			<a href="http://www.twitter.com/ellatronic_"><img src="images/twitter-dreamstale71.png"></a>
+	<section class="no-padding content">
+		<div class="container project-page">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="project-content">
+						<a href="project-demos/recipe-demo.html"><img class="img-responsive"src="images/project-screenshots/recipe-demo.png" alt="sample recipe page" /></a>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="project-content">
+						<h3>A simple webpage for a recipe.</h3>
+						<p>
+							<a href="http://github.com/ellatronic/portfolio/blob/master/project-demos/recipe-demo.html">HTML</a>
+					 		/ 
+							<a href="http://github.com/ellatronic/portfolio/blob/master/project-demos/recipe-style.css">CSS</a>
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
+	</section>
 
-		<div class="footer">
-			&copy 2015 Ella Chiang | ellatronic | All rights reserved.
+	<section>
+		<div class="container-fluid bottom-row">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="about">
+						<a href="http://github.com/ellatronic" target="_blank"><img src="https://avatars1.githubusercontent.com/u/13579508?v=3&s=460" style="width:20%"></a>
+						<br/>
+						<p>Ella Chiang is learning front-end web development at Hackbright Academy. She currently resides in San Francisco, CA.</p>
+					</div>
+				</div>
+
+				<div class="social-buttons">
+					<div class="col-sm-6">
+						<a href="http://github.com/ellatronic"><img src="images/github2-dreamstale35.png"></a>
+						<a href="http://www.linkedin.com/in/eleanorchiang"><img src="images/linkedin-dreamstale45.png"></a>
+						<a href="http://www.twitter.com/ellatronic_"><img src="images/twitter-dreamstale71.png"></a>
+					</div>
+				</div>
+			</div>
 		</div>
+	</section>
+		
+	<section>
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="footer">
+				&copy 2015 Ella Chiang | ellatronic | All rights reserved.
+				</div>
+			</div>
+		</div>
+	</section>
 </body>
 </html>
