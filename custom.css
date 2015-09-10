@@ -60,27 +60,29 @@ body {
 .navbar img {
 	padding-top: .7em;
 	width: 2em;
-  vertical-align: middle;
+  	vertical-align: middle;
 }
-.navbar-default .navbar-nav > .active{
+/*.navbar-default .navbar-nav > .active {
     color: #000;
    	background: transparent;
- }
- .navbar-default .navbar-nav > .active > a, 
+ }*/
+ /*.navbar-default .navbar-nav > .active > a, 
  .navbar-default .navbar-nav > .active > a:hover, 
  .navbar-default .navbar-nav > .active > a:focus {
       color: #000;
       background: transparent;
- }
+ }*/
  .navbar {
   width: 100%;
   background: #FCFCFC;
   border-top: 2px solid #FF80B2;
   border-bottom: 0;
-  font-family: 'playfair_displayitalic';
+  font: 1em 'montserratregular', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 .navbar-default .navbar-nav>li>a {
-    color: #FF83B8;
+    color: #000;
 }
 
 .navbar a:visited {
@@ -111,7 +113,7 @@ color: #AAAAAA;
     }
 }
 
-/*---Header---*/
+/*---Header: Main---*/
 .page-header h1 {
 	color: #FF80B2;
 	text-align: center;
@@ -128,10 +130,16 @@ color: #AAAAAA;
 	border: 0;
 }
 
-/*---Content---*/
+/*---Header: Project Pages--*/
+
+h1.project-page {
+	margin-top: 2em;
+}
+
+/*---Content: Main---*/
 .portfolio-item {
 	text-align: center;
-  padding: 3%;
+  	padding: 3%;
 }
 
 .portfolio-item img{
@@ -145,6 +153,67 @@ color: #AAAAAA;
 	letter-spacing:1px;
 	text-decoration: none;
 	color: #000;
+}
+
+/*---Content: Project Pages--*/
+.project-content {
+	margin-bottom: 5%;
+}
+
+a:link {
+	color: #D3DFEC;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration:none;
+	opacity: .8;
+	color: #AAAAAA;
+}
+
+/*---Contact Form---*/
+.form {
+	border: 1px solid #000000;
+	margin-right: 35%;
+	margin-left: 35%;
+	padding: 2%;
+	text-align: center;
+	font:.9em 'montserratregular', sans-serif;
+	color:#111;
+	text-transform:uppercase;  
+	letter-spacing:1px;
+}
+
+.form-name {
+    width: 65%;
+    padding: 5px;
+    text-indent: 5px;
+    border: 1px solid #000;
+}
+
+.form-message {
+	height: 10em;
+    width: 97%;
+    padding: 5px;
+    text-indent: 5px;
+    border: 1px solid #000;
+}
+
+.form-submit {
+	border:1px solid #111 !important; 
+	background:#111 !important; 
+	color:#fff !important; 
+	border-radius: 0 !important;
+	text-transform:uppercase; 
+	font:10px 'montserratregular', sans-serif !important; 
+	letter-spacing:1px;
+	width:66px !important;
+}
+
+/*---Bottom Row---*/
+.bottom-row {
+	margin-top: 2%;
 }
 
 /*---About Section---*/

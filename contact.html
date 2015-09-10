@@ -1,48 +1,77 @@
-<!-- page for the contact information and form -->
+e<!-- page for the contact information and form -->
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Contact Ella</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="custom.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
 <body>
-		<header class="page-header">
-			<h1>Contact</h1>
-		</header>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active">
+						<img class="img-responsive" src="images/ella-logo01-nav-edit.png">
+					</li>
+					<li>
+						<a href="index.html">
+							<span>Home</span>
+						</a>
+					</li>
+					<li>
+						<a href="#about">
+							<span>About</span>
+						</a>
+					</li>
+					<li>
+						<a href="index.html#projects">
+							<span>Projects</span>
+						</a>
+					</li>
+					<li>
+						<a href="http://coding.ellatronic.com">
+							<span>Blog</span>
+						</a>
+					</li>
+					<li>
+						<a href="contact.html">
+							<span>Contact</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 
-		<nav class="nav">
-			<img src="images/ella-logo01-nav-edit.png">
-			<ul>
-				<li>
-					<a href="http://ellatronic.github.io/portfolio/">
-						<span>Home</span>
-					</a>
-				</li>
-				<li>
-					<a href="#about">
-						<span>About</span>
-					</a>
-				</li>
-				<li>
-					<a href="#projects">
-						<span>Projects</span>
-					</a>
-				</li>
-				<li>
-					<a href="#blog">
-					<span>Blog</span>
-					</a>
-				</li>
-				<li>
-					<a href="contact.html">
-						<span>Contact</span>
-					</a>
-				</li>
-			</ul>
-		</nav>
+	<header class="page-header">
+		<div class="header-content">
+			<div class="header-content-inner">
+				<h1 class="project-page">Contact</h1>
+			</div>
+		</div>
+	</header>
 
-		<div class="content">
-			<div class="form">
+	<section>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="form">
 				<form action="//formspree.io/ellachiangg@gmail.com" method="POST">
 						First name: <br>
 						<input class="form-name" type="text" name="first-name">
@@ -59,22 +88,42 @@
 						<input class="form-submit" type="submit" value="Submit">
 				</form>
 			</div>
+				</div>
+			</div>
 		</div>
+	</section>
 
-		<div class="about">
-			<a href="http://github.com/ellatronic" target="_blank"><img src="https://avatars1.githubusercontent.com/u/13579508?v=3&s=460" style="width:20%"></a>
-			<br/>
-			<p>Ella Chiang is learning front-end web development at Hackbright Academy. She currently resides in San Francisco, CA.</p>
-		</div>
+	<section>
+		<div class="container-fluid bottom-row">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="about">
+						<a href="http://github.com/ellatronic" target="_blank"><img src="https://avatars1.githubusercontent.com/u/13579508?v=3&s=460" style="width:20%"></a>
+						<br/>
+						<p>Ella Chiang is learning front-end web development at Hackbright Academy. She currently resides in San Francisco, CA.</p>
+					</div>
+				</div>
 
-		<div class="social-buttons">
-			<a href="http://github.com/ellatronic"><img src="images/github2-dreamstale35.png"></a>
-			<a href="http://www.linkedin.com/in/eleanorchiang"><img src="images/linkedin-dreamstale45.png"></a>
-			<a href="http://www.twitter.com/ellatronic_"><img src="images/twitter-dreamstale71.png"></a>
+				<div class="social-buttons">
+					<div class="col-sm-6">
+						<a href="http://github.com/ellatronic"><img src="images/github2-dreamstale35.png"></a>
+						<a href="http://www.linkedin.com/in/eleanorchiang"><img src="images/linkedin-dreamstale45.png"></a>
+						<a href="http://www.twitter.com/ellatronic_"><img src="images/twitter-dreamstale71.png"></a>
+					</div>
+				</div>
+			</div>
 		</div>
+	</section>
+		
+	<section>
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="footer">
+				&copy 2015 Ella Chiang | ellatronic | All rights reserved.
+				</div>
+			</div>
+		</div>
+	</section>
 
-		<div class="footer">
-			&copy 2015 Ella Chiang | ellatronic | All rights reserved.
-		</div>
 </body>
 </html>
