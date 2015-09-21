@@ -42,10 +42,11 @@ function winner(playerChoice, computerChoice) {
 
 $(document).ready(function(){
   $('button').click(function() {
-      //var computerChoice = $.get("http://rock-paper-scissors-api.herokuapp.com/", function(data) {
-        //$("#pieces-played").html(data);
-      var playerChoice = $('#rock').click(function(){
-        $("#pieces-played").text("Rock");
+      var computerChoice = $.get("http://rock-paper-scissors-api.herokuapp.com/", 
+        function(data) {
+        $("#pieces-played").html(data);
+      //var playerChoice = $('#rock').click(function(){
+        //$("#pieces-played").text("Rock");
       })   
     });
 
