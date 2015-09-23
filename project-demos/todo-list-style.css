@@ -1,9 +1,9 @@
-* {
-  font-family: Arial;
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+	margin: 0; padding: 0; border: 0;
 }
 
-/*input[type=text]{
-  font-size: 24px;
+input[type=text]{
+  font-size: 18px;
   border-radius: 5px;
   border: 1px solid #ccc;
   width: 500px;
@@ -14,7 +14,7 @@ input[type=checkbox]{
   margin-right: 10px;
 }
 
-ul{
+/*ul{
   margin: 0;
   padding: 0;
   margin-top: 15px;
