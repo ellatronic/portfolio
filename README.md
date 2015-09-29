@@ -3,6 +3,9 @@ My portfolio
 <br/>
 Hackbright front-end portfolio assignment
 <br/>
+Week seven (9/28/2015): added homework assignment for GitHub last commit
+![Screenshot 9/28/2015](/../screenshots/Screenshot_2015-09-28_17.06.38.png?raw=true "added homework assignment for GitHub last commit")
+<br/>
 Week four (9/9/2015): added first name form validation using JavaScript, added header img, logo
 ![Screenshot 9/9/2015](/../screenshots/Screenshot_2015-09-09_14.40.52.png?raw=true "added first name form validation using JavaScript, added header img, logo")
 <br/>

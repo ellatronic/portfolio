@@ -1,0 +1,34 @@
+/*---Reset to remove browser defaults---*/
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+	margin: 0; padding: 0; border: 0;
+}
+
+body {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+h1 {
+	color: #B2A7D1;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.content {
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding: 1%;
+	text-align: center;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#number {
+	color: #67AADF;
+	padding-bottom: 5%;
+}
+
+#math-fact {
+	color: #135A9B;
+}

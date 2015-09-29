@@ -139,6 +139,7 @@ h1.project-page {
 /*---Content: Main---*/
 /*----Portfolio Items---*/
 .view {
+    margin-bottom: 7%;
     position: relative;
     overflow: hidden;
     text-align: center;
