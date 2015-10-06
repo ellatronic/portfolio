@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	function getGitHubData() {
+		var time = '';
 		$.get('https://api.github.com/users/ellatronic/events')
 			.done(function(data) {
 				// retrieve last commit
