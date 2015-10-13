@@ -3,6 +3,9 @@ My portfolio
 <br/>
 Hackbright front-end portfolio assignment
 <br/>
+Week ten (10/12/2015): added more projects to portfolio
+![Screenshot 10/12/2015](/../screenshots/Screenshot_2015-10-12_21.08.25.png?raw=true "added more projects")
+<br/>
 Week seven (9/28/2015): added homework assignment for GitHub last commit
 ![Screenshot 9/28/2015](/../screenshots/Screenshot_2015-09-28_17.06.38.png?raw=true "added homework assignment for GitHub last commit")
 <br/>
